@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.CloudCover.Automation.Tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="ActionsOnHomePage"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.CloudCover.Automation.Tests.HomePageTest -->
+      <class name="com.CloudCover.Automation.Tests.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.CloudCover.Automation.Tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
